@@ -1,0 +1,26 @@
+1. Copy the whole folder called webclock into your applicaton root folder on your server.
+2. Set up virtual hosts if you need to to point the document root of your application to /public
+3. The folder include all framework files so you don't even need to run composer to install anything.
+4. Makesure you have mysql and php installed
+5. Open a file called .env and set up the credentials for your database server.
+6. Do the same for file called /config/database.php
+7. Open terminal and move to document root of the application and run 'php artisan migrate' to run the migration and the database
+8. Once complete, in the same terminal, run 'php artisan db:seed' to add some records to the database.
+9. go to browser and navigate to the application and sign in to start using. To login as admin, use the email 'info@trailanalytics.com' and password as 'admin'. To login as normal user, use 'samson@trailanalytics.com' and password as 'samson'
+10. Once logged in, click on the time in button to clockin. You can then navigate by clicking items on the  menu to differnt page.
+11. Once you are done, click on Timeout and respond to the prompts to checkout.
+
+== Enjoy===== email kapeyisamson@gmail.com if you have any other questions.
+
+
+=== Recommendation =====
+1. Reports..you can extract report of individual users and for admin.
+2. Individual reports can be made to show weekly arrival and depart time. And the average.
+3. You can show the user when they are late.
+5. Add a points system for users who arrive before a specific time.
+6. Disallow clocking and clockout outside certain times.
+7. For the admin, you can provide daily reports of late employees and an overall view of attendance for all employees on a daily basis.
+8. Smart employees can share passwords and help each other login and out even when they are not at the premises. You can maybe send smses with codes which people need to provide before a certain time to show they have arrived.
+9 You could also add a finger print scanner to act as the login button to deal with such cases.
+
+== Note:: Didn't have enough time to prepare my application. Started my preparation on 3rd November so i haven't had time to include some features. If  there is a provision for a time extension, I would gladly do this, but they say, DONE IS BETTER THAN PERFECT, so this will be it for now. Looking forward to hearing from you.===
